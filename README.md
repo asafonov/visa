@@ -1,4 +1,4 @@
-#Visa.php
+# Visa.php
 
 This is a simple script to calculate the number of days left in the Schengen countries.
 
