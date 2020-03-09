@@ -25,7 +25,7 @@ function check_date($date) {
   return $number_of_days;
 }
 
-$date = count($argv) > 1 ? strtotime($argv[1]) : time();
+$date = count($argv) > 1 ? strtotime($argv[1]) : strToTime(date('Y-m-d', time()));
 echo "Requested date: " . date("Y-m-d", $date) . "\n";
 $days_left = check_date($date);
 echo "Days left: $days_left\n";
